@@ -1,0 +1,23 @@
+{
+  "name": "freeplay",
+  "version": "1.0.0",
+  "description": "Freeplay by Glitchchh — turn your PC into a local AirPlay screen-mirroring receiver.",
+  "type": "module",
+  "author": "Glitchchh",
+  "license": "MIT",
+  "bin": {
+    "freeplay": "bin/freeplay.js"
+  },
+  "scripts": {
+    "start": "node bin/freeplay.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "public",
+    "README.md"
+  ]
+}
